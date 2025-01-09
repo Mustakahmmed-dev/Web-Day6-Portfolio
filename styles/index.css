@@ -200,9 +200,41 @@ body{
 
 /* Footer */
 footer{
-    background:rgb(255, 248, 243);;
+    background:rgb(255, 248, 243);
+    min-height: 50vh;
 }
 .footer-container{
     max-width: 80%;
-    margin: 80px auto;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+.connection-div p{
+    margin: 30px 0;
+}
+.connection-div{
+    max-width: 600px;
+}
+.social-media{
+    display: flex;
+    gap: 15px;
+}
+.social-media span{
+    color: rgb(253, 110, 10);
+    font-size: 18px;
+}
+/* Form */
+.contact-container h1{
+    margin-bottom: 30px;
+}
+input[type="text"], input[type="email"], textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
 }
