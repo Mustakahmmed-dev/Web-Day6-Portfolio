@@ -14,12 +14,16 @@ body{
     background-image:  url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: top left, right bottom;
+    
 }
 .navbar-container{
     display: flex;
     margin: 10px 200px;
     justify-content: space-between;
     align-items: center;
+}
+#mary-r{
+    color: rgb(253, 110, 10);
 }
 .navbar{
     display: flex;
@@ -52,8 +56,9 @@ body{
 }
 #hero{
     display: flex;
-    margin: 0 35px 0 200px;
+    margin: 0 35px 0 150px;
     justify-content: space-between;
+    align-items: center;
 }
 .banner-content{
     max-width: 480px;
@@ -81,3 +86,38 @@ body{
 .hero-profile-pic{
     height: 600px;
 }
+.hardy-btn{
+    margin-right: 10px;
+}
+
+/* About Section */
+.about-section{
+    max-width: 1140px;
+    margin: 60px auto;
+    background-color: rgb(255, 248, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+.about-section-container{
+    max-width: 827px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 15px;
+}
+.about-section-container h1, .about-section-container p, .about-section-container h4{
+    color: rgb(117, 117, 117);
+}
+.about-section h1{
+    margin-bottom: 25px;
+}
+.hardy-table{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+/* What I Do */
